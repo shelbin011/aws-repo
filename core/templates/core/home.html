@@ -1,0 +1,6 @@
+{% extends 'core/base.html' %}
+{% block content %}
+    <h1>Welcome to Our App</h1>
+    <p>This is a simple Django web application ready for production deployment to AWS EC2.</p>
+    <p>To test out the database integration, please visit the <a href="{% url 'contact' %}">Contact page</a> and submit a message.</p>
+{% endblock %}
